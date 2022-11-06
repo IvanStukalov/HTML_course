@@ -1,3 +1,99 @@
-h3{
-    color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    background-color:  lightcyan;
+}
+
+.header .card{
+    width: 50%;
+    font-size: medium;
+    display: inline-block;
+}
+
+.avatar {
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    width: 30%;
+    font-size: smaller;
+    background-color: azure;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#generalInformation {
+    font-style: italic;
+    font-weight: lighter;
+    color: #366ef1;
+    border: 2px grey solid;
+    border-radius: 10px;
+}
+
+#generalInformation p {
+    margin: 5px;
+}
+
+.field {
+    background-color: khaki;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+a {
+    color: slategray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: slateblue;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: lightcoral;
+}
+
+button {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+}
+
+button:hover {
+    background-color: aqua;
+    border-color: darkred;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: black;
+}
+
+.table {
+    background-color: blanchedalmond;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+.table tr td:hover {
+    background-color: lightgrey;
+}
+
+.list {
+    list-style: none;
+    padding-left: 20px;
 }

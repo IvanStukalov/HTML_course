@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>FeedBack</title>
 </head>
 <body>
 
-    <header></header>
-        <h1>Связаться со мной</h1>
-    </header>
-    
-    <footer>
-        <form>
-            <div>
-                <label for="userName">Ваше имя</label>
-                <input type="text" id="userName" placeholder="Введите Ваше имя">
-            </div>
+    <div class="container">
+        <header class="header">
+            <h1>Связаться со мной</h1>
+        </header>
+        
+        <article class="card">
+            <form>
+                <div>
+                    <label for="userName">Ваше имя</label>
+                    <input class="field" type="text" id="userName" placeholder="Введите Ваше имя" required>
+                </div>
 
-            <div>
-                <label for="userEmail">Ваш Email</label>
-                <input type="email" id="userEmail" placeholder="Введите Ваш email">
-            </div>
+                <div>
+                    <label for="userEmail">Ваш Email</label>
+                    <input class="field" type="email" id="userEmail" placeholder="Введите Ваш email" required>
+                </div>
 
-            <div>
-                <label for="userMessage">Сообщение</label>
-                <br>
-                <textarea id="userMessage" cols="40" rows="3" 
-                    placeholder="Напишите тут что-нибудь |_->_<-_|"></textarea>
-            </div>
-            
-            <button type="submit">Отправить</button>
-        </form>
-    </footer>
-
+                <div>
+                    <label for="userMessage">Сообщение</label>
+                    <br>
+                    <textarea class="field" id="userMessage" cols="40" rows="3" 
+                        placeholder="Напишите тут что-нибудь |_->_<-_|"></textarea>
+                </div>
+                
+                <button type="submit">Отправить</button>
+            </form>
+        </article>
+    </div>>
 </body>
 </html>
