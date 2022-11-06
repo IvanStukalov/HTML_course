@@ -1,3 +1,3 @@
 # Мой первый сайт-резюме после прохождения курса по HTML&CSS:
 
-## [а вот и ссылочка на сайт](http://127.0.0.1:5500/HTML&CSS_course/index.html)
+## [а вот и ссылочка на сайт](https://ivanstukalov.github.io/HTML_course/)
